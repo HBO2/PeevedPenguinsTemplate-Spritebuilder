@@ -163,8 +163,8 @@
 						<key>value</key>
 						<array>
 							<real>0.5</real>
-							<real>0.28125</real>
-							<integer>0</integer>
+							<real>0.71875</real>
+							<integer>1</integer>
 							<integer>2</integer>
 							<integer>2</integer>
 						</array>
