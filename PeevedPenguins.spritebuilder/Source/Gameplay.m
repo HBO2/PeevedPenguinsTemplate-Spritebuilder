@@ -14,6 +14,7 @@
     CCPhysicsNode *_physicsNode;                //Creating een physics object, like named in spritebuilder
     CCNode *_catapultArm;                       // Creating a node object, like named in spritebuilder
     CCNode *_levelNode;
+    CCNode *_contentNode;
 }
 
 
@@ -57,9 +58,18 @@
      */
     
     // ensure followed object is in visible are when starting
-    self.position = ccp(0, 0); //setting position with CC macro -> CGPoint etc.
-    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];//creating CCActionFollow object with bounderies of the scene itself
-    [self runAction:follow];
+    self.position = ccp(0, 0);
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [_contentNode runAction:follow];
+    
+    
+    
+    // ensure followed object is in visible are when starting
+  //  self.position = ccp(0, 0); //setting position with CC macro -> CGPoint etc.
+    //CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];//creating CCActionFollow object with bounderies of the scene itself
+   // [self runAction:follow];
+    
+    
     
     
 }
