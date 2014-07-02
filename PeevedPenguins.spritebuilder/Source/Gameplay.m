@@ -47,6 +47,21 @@
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000); // using the CGPoint "launchdirection" object
     [penguin.physicsBody applyForce:force]; //Watch how we send the method physicsBody apply force to the object
+    
+    
+    /*
+     We are telling the Gameplay scene to act as a camera following
+     the penguin. We also say that the camera shall not leave our 
+     scene by using the bounding box of the scene to define the world
+     boundaries.
+     */
+    
+    // ensure followed object is in visible are when starting
+    self.position = ccp(0, 0); //setting position with CC macro -> CGPoint etc.
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];//creating CCActionFollow object with bounderies of the scene itself
+    [self runAction:follow];
+    
+    
 }
 
 @end
