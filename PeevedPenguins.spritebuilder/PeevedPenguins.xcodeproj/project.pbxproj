@@ -132,11 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
+				B737893E1807617C0076A88C /* AppDelegate.m */,
 				4C8E95181961724000F457F0 /* Seal.h */,
 				4C8E95191961724000F457F0 /* Seal.m */,
 				4C8E95141961714700F457F0 /* Penguin.h */,
 				4C8E95151961714700F457F0 /* Penguin.m */,
-				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 			);
