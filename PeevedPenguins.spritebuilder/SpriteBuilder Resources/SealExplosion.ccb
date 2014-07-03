@@ -212,16 +212,16 @@
 				<key>value</key>
 				<array>
 					<array>
-						<real>0.99999600648880005</real>
-						<real>1</real>
-						<real>1</real>
-						<real>0.18000000715255737</real>
+						<real>0.0</real>
+						<real>0.0</real>
+						<real>0.0</real>
+						<real>0.17000000178813934</real>
 					</array>
 					<array>
-						<real>0.071372650563716888</real>
-						<real>0.10835220664739609</real>
-						<real>0.10929704457521439</real>
-						<real>0.25999999046325684</real>
+						<real>0.42847186326980591</real>
+						<real>0.42847186326980591</real>
+						<real>0.42847186326980591</real>
+						<real>0.34000000357627869</real>
 					</array>
 				</array>
 			</dict>
@@ -233,16 +233,16 @@
 				<key>value</key>
 				<array>
 					<array>
-						<real>0.99999600648880005</real>
+						<real>0.94997704029083252</real>
+						<real>0.96839523315429688</real>
 						<real>1</real>
-						<real>1</real>
-						<real>0.30000001192092896</real>
+						<real>0.31000000238418579</real>
 					</array>
 					<array>
-						<real>0.066645599901676178</real>
-						<real>0.10375448316335678</real>
-						<real>0.0</real>
-						<real>0.25999999046325684</real>
+						<real>0.95327675342559814</real>
+						<real>0.97962802648544312</real>
+						<real>1</real>
+						<real>0.18999999761581421</real>
 					</array>
 				</array>
 			</dict>
@@ -254,7 +254,7 @@
 				<key>value</key>
 				<array>
 					<integer>1</integer>
-					<integer>771</integer>
+					<integer>1</integer>
 				</array>
 			</dict>
 			<dict>
