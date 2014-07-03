@@ -960,7 +960,7 @@
 								<key>displayName</key>
 								<string>ground</string>
 								<key>memberVarAssignmentName</key>
-								<string>_mouseJointNode</string>
+								<string></string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>physicsBody</key>
@@ -994,12 +994,12 @@
 											<real>0.0</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>47.911018371582031</real>
+											<real>0.18511632084846497</real>
+											<real>38.664356231689453</real>
 										</array>
 										<array>
-											<real>960</real>
-											<real>47.911018371582031</real>
+											<real>960.82769775390625</real>
+											<real>41.225650787353516</real>
 										</array>
 										<array>
 											<real>960</real>
@@ -1014,12 +1014,12 @@
 												<real>0.0</real>
 											</array>
 											<array>
-												<real>960</real>
-												<real>47.911018371582031</real>
+												<real>960.82769775390625</real>
+												<real>41.225650787353516</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>47.911018371582031</real>
+												<real>0.18511632084846497</real>
+												<real>38.664356231689453</real>
 											</array>
 											<array>
 												<real>0.0</real>
@@ -1179,8 +1179,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1194,7 +1192,7 @@
 								<key>displayName</key>
 								<string>mouseJointNode</string>
 								<key>memberVarAssignmentName</key>
-								<string></string>
+								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>properties</key>
@@ -1259,6 +1257,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
