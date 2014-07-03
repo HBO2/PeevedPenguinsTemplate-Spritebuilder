@@ -7,7 +7,7 @@
 //
 
 #import "CCNode.h"
-#import "Seal.h"
+
 
 @interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
 
