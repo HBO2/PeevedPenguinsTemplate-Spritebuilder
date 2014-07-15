@@ -2301,8 +2301,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -2356,9 +2354,9 @@
 			<key>name</key>
 			<string>BlinkAndJump</string>
 			<key>offset</key>
-			<real>0.0</real>
+			<real>1.3359375</real>
 			<key>position</key>
-			<real>1.3999999761581421</real>
+			<real>4</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
